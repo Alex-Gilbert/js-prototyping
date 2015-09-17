@@ -1,0 +1,17 @@
+{
+  "name": "rapid-js-prototyping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js:bundle.js --live | garnish"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "budo": "^4.2.1",
+    "garnish": "^3.2.0",
+    "three": "^0.71.1",
+    "watchify": "^3.4.0"
+  }
+}
